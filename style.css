@@ -1,0 +1,280 @@
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+
+    width: 100%;
+    height: 80px;
+   
+    background-color: rgb(11, 56, 141);
+   
+}
+
+.logo{
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 50px;
+    margin-left: 80px;
+    
+    color: azure;
+}
+
+.textlogo{
+    font-family: "Dosis", sans-serif;
+    /* font-optical-sizing: auto; */
+    /* font-weight: <weight>; */
+    font-style: normal;
+    font-size: 35px;
+    margin-right: 80px;
+
+    color: azure;
+}
+
+.container{
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+img{
+    width: 600px;
+    height: 600px;
+   
+}
+
+.description{
+    color: white;
+}
+.titre{
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size:90px;
+    margin-left: 80px;
+}
+.descr{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin-left: 80px;
+
+}
+.button{
+    margin-left: 80px;
+}
+
+.mybtn{
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    width: 200px;
+    height: 50px;
+}
+span{
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+
+    font-size:20px;
+}
+
+.marks{
+    display: flex;
+
+    width: 100%;
+    height: 50px;
+    align-items: center;  
+    justify-content: space-around;
+
+    border: 1px solid black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.container1{
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    border: 1px solid black;
+    
+}
+.box1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+ 
+    width: 400px;
+    height: 300px ;
+}
+
+
+.box2{
+    background-color: #f0f0f0;
+    width: 400px;
+    height: 300px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+    
+}
+
+.box3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    
+    width: 400px;
+    height: 300px ;
+}
+
+.box1img{
+    margin-left: 20px;
+}
+
+
+.box3img{
+    margin-left: 50px;
+}
+
+.box1desc{
+    color: rgb(11, 56, 141);
+     font-family: "Archivo Black", sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+    margin-left: 25px;
+}
+
+.box2desc{
+    color: rgb(11, 56, 141);
+     font-family: "Archivo Black", sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+    margin-left: 25px;
+}
+
+.box3desc{
+    color: rgb(11, 56, 141);
+     font-family: "Archivo Black", sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+    margin-left: 25px;
+}
+
+.box1 .box1desc span{
+    font-family: "Dosis", sans-serif;
+    color: rgb(11, 56, 141);
+    font-style: normal;
+    font-size: 30px;
+    font-weight: 400;
+    
+}
+.box2 .box2desc span{
+    font-family: "Dosis", sans-serif;
+    color:rgb(11, 56, 141);
+    font-style: normal;
+    font-size: 30px;
+    font-weight: 400;
+    
+}
+.box3 .box3desc span{
+    font-family: "Dosis", sans-serif;
+    color: rgb(11, 56, 141);
+    font-style: normal;
+    font-size: 30px;
+    font-weight: 400;
+    
+}
+.box4{
+    width: 100%;
+    height: 40px;
+    background-color:  rgb(11, 56, 141);
+    border-color:  rgb(11, 56, 141);
+    border: 1px solid  rgb(11, 56, 141);
+}
+
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .logo {
+        font-size: 40px;
+        margin-left: 50px;
+    }
+
+    .textlogo {
+        font-size: 30px;
+        margin-right: 50px; 
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    img {
+        width: 80%; 
+        height: auto;
+    }
+
+    .titre {
+        font-size: 70px; 
+        margin-left: 20px;
+    }
+
+    .descr {
+        margin-left: 20px; 
+    }
+
+    .button {
+        margin-left: 20px; 
+    }
+
+    .mybtn {
+        width: 150px; 
+        height: 40px; 
+        font-size: 16px;
+    }
+
+    .marks {
+        padding: 20px;
+    }
+
+    .container1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box1,
+    .box2,
+    .box3 {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .box1 img,
+    .box2 img,
+    .box3 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .box1desc,
+    .box2desc,
+    .box3desc {
+        margin-left: 20px; 
+        text-align: center;
+    }
+
+    .mybtn {
+        width: 70%; 
+        font-size: 14px; 
+    }
+}
